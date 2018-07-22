@@ -31,3 +31,8 @@ This repository contains various Android Projects. Below is the list of all andr
     - Project Name: Art Therapy
     - Project Description: An android app that allows users to draw pictures on the app's GUI
     - Technologies/methods used: Android, Java, Android Senors, Android Canvas, Android Notifications
+    
+7. PhotoNotes:
+    - Project Name: Photo Notes
+    - Project Description: Photo notes is a simple note-taking app that allows users to take photo and associate a caption for each photo.
+    - Technologies/methods used: Android, Java, SQLite, Android Studio
