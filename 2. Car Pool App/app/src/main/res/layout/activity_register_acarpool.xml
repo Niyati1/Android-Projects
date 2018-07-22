@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <AutoCompleteTextView
+        android:id="@+id/source"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Select Source"
+        android:imeOptions="flagNoExtractUi|actionSearch"
+        android:inputType="textCapSentences" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/destination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/source"
+        android:ems="10"
+        android:imeOptions="flagNoExtractUi|actionSearch"
+        android:inputType="textCapSentences"
+        android:hint="Select Destination" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.niyati.myapplication.MainActivity"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:foregroundGravity="center_vertical"
+            android:text="Date: "
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/dp"
+            android:layout_marginEnd="12dp" />
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right|bottom"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout"
+            android:visibility="gone">
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:map="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                tools:context="com.example.chinmaydeshpande.myapplication123.MapsActivity"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="147dp" />
+
+        </RelativeLayout>
+        <Button
+            android:id="@+id/sourcebuttonloc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="Select Source Location"
+            android:gravity="center"
+            android:layout_gravity="bottom|left"
+            android:layout_below="@+id/relativeLayout"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/selectdest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:layout_gravity="bottom|left"
+            android:layout_below="@+id/relativeLayout"
+            android:text="Select Destination Location"
+            android:layout_weight="0.95" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
