@@ -15,9 +15,14 @@ This repository contains various Android Projects. Below is the list of all andr
 3. NChat:
     - Project Name: Nchat
     - Project Description: NChat is an android application that allows voice and text communications using Bluetooth and Wi-Fi
-    - Technologies/methods used: Android, Java, WifiP2PManager, Android Bluetooth, 
+    - Technologies/methods used: Android, Java, WifiP2PManager, Android Bluetooth, Android Studio
 
 4. NAV Analyzer:
     - Project Name: NAV Analyzer
     - Project Description: NAV ANALYZER (Net Asset Value Analyzer), is the AOSP (Android Open source Project) based application which is meant for investors viz. retail and corporate investors. This project is aimed at mobile users who have made financial investments as mutual funds.
     - Technologies used: Android,Java, SQL, PHP, JSON, XAMPP Server, Eclipse.
+
+5. Taco Pronto:
+    - Project Name: Taco Pronto
+    - Project Description: Taco Pronto is an Taco Ordering Android App, where the users can assemble their taco order by choosing items from app GUI and the app delivers the message to the user with a summary of what the user ordered and total price.
+    - Technologies/method used: Android, Java, SmsManagerAPI, Android Studio
