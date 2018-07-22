@@ -2,6 +2,11 @@
 
 This repository contains various Android Projects. Below is the list of all android projects in this repository:
 
+1. NoStallin:
+    - Project Name: NoStallin
+    - Project Description: NoStatllin app allows the users add and read information about a men's restroom having a door or not. This crowd sourced data is then used to compute number of votes whether a restroom has a door or not.
+    -Technologies used: Android, Java, Google Firebase, Google Play Services, Google Maps, Google Places, Android Studio.
+
 2. Car Pool App (GoRide!):
     - Project Name: Car Pool App
     - Project Description: An android based carpool application in which a user can request for a shared ride and they can see a list of available users in a certain distance.
