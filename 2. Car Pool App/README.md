@@ -2,8 +2,7 @@
 
 Carpool app is an android based ride sharing app in which a user can either own a carpool or can request a carpool. Carpool owner selects his source and destination for his ride and can wait for a requester to join. Carpool requester selects source and destination on the map and can only see carpool rides in terms of the optimal route which is selected by a matching algorithm. Matching algorithm works as follows: 
 
-![Algorithm representation](matching_algorithm.png)
-
+!(matching_algorithm.png)
 1. Paper implemented algorithm in such a way where the requester are checked if there are within a circle drawn from source and destination with some radius. 
 2. Polyline – is the optimal route from source to destination. 
 3. Check if the requester’s source and destination is within the polylines tolerance (Tolerance is the physical route from any point on polyline to the a certain distance)
