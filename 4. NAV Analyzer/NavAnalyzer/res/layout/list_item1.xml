@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical" >
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+
+
+    <!-- Name Label -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:gravity="left" >
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            
+            android:paddingLeft="6dip"
+            android:paddingTop="6dip"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+       
+    </RelativeLayout>
+
+</LinearLayout>

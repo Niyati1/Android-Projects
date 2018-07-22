@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    
+    android:orientation="vertical" >
+
+    <!-- Product id (pid) - will be HIDDEN - used to pass to other activity -->
+
+
+    <!-- Name Label -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:gravity="left" >
+        
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/nav"
+            android:paddingLeft="6dip"
+            android:paddingTop="6dip"
+            android:textSize="17dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+          <TextView
+            android:id="@+id/comp_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/nav"
+            android:layout_width="70dp"
+            android:layout_height="101dp"
+            android:layout_alignBottom="@+id/sname"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+             android:textSize="17dip"
+            android:textStyle="bold" 
+            android:textColor="@color/yellow"/>
+    </RelativeLayout>
+
+</LinearLayout>

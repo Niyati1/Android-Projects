@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:orientation="vertical" >
+
+   
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="Welcome To NAV Analyzer"
+            android:textSize="20dip" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="215dp"
+        android:layout_height="102dp"
+        android:layout_above="@+id/btnLogout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button6_background"
+        android:layout_marginBottom="59dp"
+        android:textStyle="bold"
+        android:text="Mutual Funds" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="92dp"
+        android:background="@null"
+        android:text="Logout Me"
+        android:textColor="#21dbd4"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+ </RelativeLayout>

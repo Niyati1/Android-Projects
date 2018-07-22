@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/a"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <!-- Sample Dashboard screen with Two buttons -->
+
+    
+
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="25dip"
+        android:background="@drawable/button6_background"
+        android:text="View Schemes"
+         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCreateProduct"
+       android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="25dip"
+         android:background="@drawable/button6_background"
+        android:text="Add New Schemes"
+         android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/viewProduct"
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="25dip"
+         android:background="@drawable/button6_background"
+        android:text="View Your Schemes" 
+         android:textStyle="bold"/>
+
+</LinearLayout>

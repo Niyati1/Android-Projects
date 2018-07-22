@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    android:orientation="vertical" >
+
+ <TextView
+     android:id="@+id/textView3"
+     style="@android:style/TextAppearance.Medium"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_below="@+id/textView2"
+     android:layout_marginTop="117dp"
+      android:textSize="25dip"
+      android:textStyle="bold"
+     android:text="The Part Of Development Team:
+Apurva Tawde,
+Jinal Patel,
+Niyati Shah," />
+
+ <TextView
+     android:id="@+id/textView2"
+     style="@android:style/TextAppearance.Medium"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentTop="true"
+     android:layout_marginTop="18dp"
+     android:text="NAV Analyzer is created as a part of Final year B.E project.It enable user to view NAV for the desired Mutual Fund Schemes and also view its Analysis."
+     android:textSize="25dip"
+     android:textStyle="italic" />
+
+</RelativeLayout>
