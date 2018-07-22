@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Taco Pronto</string>
+    <string name="string1">2500 Pacific Coast Highway. Phone : 1234</string>
+    <string name="size">Size</string>
+    <string name="tortilla">Tortilla</string>
+    <string name="size1">Large</string>
+    <string name="size2">Medium</string>
+    <string name="tortilla1">Corn</string>
+    <string name="tortilla2">Flour</string>
+    <string name="fill">Fillings</string>
+    <string name="fill1">Beef</string>
+    <string name="fill2">Chicken</string>
+    <string name="fill3">White Fish</string>
+    <string name="fill4">Cheese</string>
+    <string name="fill5">Sea Food</string>
+    <string name="fill6">Rice</string>
+    <string name="fill7">Beans</string>
+    <string name="fill8">Squash</string>
+    <string name="fill9">Guacamole</string>
+    <string name="fill11">Spicy Ranch</string>
+    <string name="fill12">Pico De Gallo</string>
+    <string name="fill10">Red Sauce</string>
+    <string name="bev">Bevrages</string>
+    <string name="bev1">Soda</string>
+    <string name="bev2">Cerveza</string>
+    <string name="bev3">Margarita</string>
+    <string name="bev4">Tequila</string>
+    <string name="order">Place your order</string>
+    <string name="Number">2500 Pacific Coast Highway. Phone : 1234</string>
+
+</resources>
