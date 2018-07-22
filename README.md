@@ -26,3 +26,8 @@ This repository contains various Android Projects. Below is the list of all andr
     - Project Name: Taco Pronto
     - Project Description: Taco Pronto is an Taco Ordering Android App, where the users can assemble their taco order by choosing items from app GUI and the app delivers the message to the user with a summary of what the user ordered and total price.
     - Technologies/method used: Android, Java, SmsManagerAPI, Android Studio
+
+6. Art Therapy:
+    - Project Name: Art Therapy
+    - Project Description: An android app that allows users to draw pictures on the app's GUI
+    - Technologies/methods used: Android, Java, Android Senors, Android Canvas, Android Notifications
