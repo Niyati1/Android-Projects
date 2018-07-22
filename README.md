@@ -5,7 +5,7 @@ This repository contains various Android Projects. Below is the list of all andr
 2. Car Pool App (GoRide!):
     - Project Name: Car Pool App
     - Project Description: An android based carpool application in which a user can request for a shared ride and they can see a list of available users in a certain distance.
-    -Technologies/methods used: Android, Google Play Services, Google Maps, JSON, GPS Tracking, Travelling Salesman Problem, Android Studio
+    - Technologies/methods used: Android, Google Play Services, Google Maps, JSON, GPS Tracking, Travelling Salesman Problem, Android Studio
 
 4. NAV Analyzer:
     - Project Name: NAV Analyzer
